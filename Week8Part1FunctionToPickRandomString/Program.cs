@@ -5,5 +5,13 @@ string[] drinks = { "mineral water", "Coca-Cola", "apple juice", "milk", "beer" 
 Random rnd = new Random();
 
 int randomIndex = rnd.Next(0,tvShows.Length);
+string randomMovie = tvShows[randomIndex];
+Console.WriteLine(randomMovie);
 
-Console.WriteLine(randomIndex);
+randomIndex = rnd.Next(0,food.Length);
+string randomFood = food[randomIndex];
+Console.WriteLine(randomFood);
+
+randomIndex = rnd.Next(0, drinks.Length);
+string randomDrinks = drinks[randomIndex];
+Console.WriteLine(randomDrinks);
